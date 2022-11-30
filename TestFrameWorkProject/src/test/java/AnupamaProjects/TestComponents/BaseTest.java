@@ -98,7 +98,8 @@ public class BaseTest {
 	}
 	
 	@AfterMethod(alwaysRun=true)
-	public void tearDown() {
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(2000);
 		driver.close();
 	}
 

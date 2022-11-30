@@ -2,22 +2,22 @@
 <testng-results retried="1" ignored="0" total="6" passed="2" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-29T02:15:02 IST" name="Suite" finished-at="2022-11-29T02:15:57 IST" duration-ms="55239">
+  <suite started-at="2022-11-30T23:23:10 IST" name="Suite" finished-at="2022-11-30T23:24:06 IST" duration-ms="56298">
     <groups>
       <group name="ErrorHandling">
-        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" name="LoginErrorValidation" class="AnupamaProjects.tests.ErrorValidations"/>
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" name="LoginErrorValidation" class="AnupamaProjects.tests.ErrorValidations"/>
       </group> <!-- ErrorHandling -->
       <group name="Purchase">
-        <method signature="StandaloneTest.submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" name="submitOrder" class="AnupamaProjects.tests.StandaloneTest"/>
+        <method signature="StandaloneTest.submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" name="submitOrder" class="AnupamaProjects.tests.StandaloneTest"/>
       </group> <!-- Purchase -->
     </groups>
-    <test started-at="2022-11-29T02:15:02 IST" name="Submit Order Test" finished-at="2022-11-29T02:15:30 IST" duration-ms="28604">
+    <test started-at="2022-11-30T23:23:10 IST" name="Submit Order Test" finished-at="2022-11-30T23:23:39 IST" duration-ms="29018">
       <class name="AnupamaProjects.tests.StandaloneTest">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:03 IST" name="launchApplication" finished-at="2022-11-29T02:15:14 IST" duration-ms="11404" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:11 IST" name="launchApplication" finished-at="2022-11-30T23:23:16 IST" duration-ms="5274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:14 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-29T02:15:22 IST" duration-ms="7800" status="PASS">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:16 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-30T23:23:31 IST" duration-ms="14878" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,15 +28,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:22 IST" name="tearDown" finished-at="2022-11-29T02:15:22 IST" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:31 IST" name="tearDown" finished-at="2022-11-30T23:23:33 IST" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:22 IST" name="launchApplication" finished-at="2022-11-29T02:15:29 IST" duration-ms="6788" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:33 IST" name="launchApplication" finished-at="2022-11-30T23:23:36 IST" duration-ms="3178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:29 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-29T02:15:30 IST" duration-ms="1169" status="FAIL">
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:36 IST" name="submitOrder" data-provider="getData" finished-at="2022-11-30T23:23:37 IST" duration-ms="809" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -81,17 +81,17 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitOrder -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:30 IST" name="tearDown" finished-at="2022-11-29T02:15:30 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:37 IST" name="tearDown" finished-at="2022-11-30T23:23:39 IST" duration-ms="2038" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method signature="OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1]" started-at="2022-11-29T02:15:30 IST" name="OrderHistoryTest" finished-at="2022-11-29T02:15:30 IST" depends-on-methods="AnupamaProjects.tests.StandaloneTest.submitOrder" duration-ms="0" status="SKIP">
+        <test-method signature="OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2]" started-at="2022-11-30T23:23:39 IST" name="OrderHistoryTest" finished-at="2022-11-30T23:23:39 IST" depends-on-methods="AnupamaProjects.tests.StandaloneTest.submitOrder" duration-ms="0" status="SKIP">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method StandaloneTest.OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1] depends on not successfully finished methods]]>
+              <![CDATA[Method StandaloneTest.OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method StandaloneTest.OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@1fa1cab1] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method StandaloneTest.OrderHistoryTest()[pri:0, instance:AnupamaProjects.tests.StandaloneTest@b4711e2] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:102)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
@@ -114,25 +114,25 @@ at java.base/java.lang.Thread.run(Thread.java:833)
         </test-method> <!-- OrderHistoryTest -->
       </class> <!-- AnupamaProjects.tests.StandaloneTest -->
     </test> <!-- Submit Order Test -->
-    <test started-at="2022-11-29T02:15:02 IST" name="Error Validations Test" finished-at="2022-11-29T02:15:57 IST" duration-ms="55239">
+    <test started-at="2022-11-30T23:23:10 IST" name="Error Validations Test" finished-at="2022-11-30T23:24:06 IST" duration-ms="56298">
       <class name="AnupamaProjects.tests.ErrorValidations">
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:02 IST" name="launchApplication" finished-at="2022-11-29T02:15:14 IST" duration-ms="12036" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:10 IST" name="launchApplication" finished-at="2022-11-30T23:23:16 IST" duration-ms="5973" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="LoginErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:14 IST" name="LoginErrorValidation" finished-at="2022-11-29T02:15:16 IST" duration-ms="1491" status="PASS">
+        <test-method signature="LoginErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:16 IST" name="LoginErrorValidation" finished-at="2022-11-30T23:23:17 IST" duration-ms="642" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:16 IST" name="tearDown" finished-at="2022-11-29T02:15:16 IST" duration-ms="573" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:17 IST" name="tearDown" finished-at="2022-11-30T23:23:19 IST" duration-ms="2069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:16 IST" name="launchApplication" finished-at="2022-11-29T02:15:22 IST" duration-ms="5861" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:19 IST" name="launchApplication" finished-at="2022-11-30T23:23:22 IST" duration-ms="2928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method retried="true" signature="ProductErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:22 IST" name="ProductErrorValidation" finished-at="2022-11-29T02:15:37 IST" duration-ms="15442" status="SKIP">
+        <test-method retried="true" signature="ProductErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:22 IST" name="ProductErrorValidation" finished-at="2022-11-30T23:23:45 IST" duration-ms="23588" status="SKIP">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -169,15 +169,15 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:37 IST" name="tearDown" finished-at="2022-11-29T02:15:38 IST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:45 IST" name="tearDown" finished-at="2022-11-30T23:23:47 IST" duration-ms="2053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:38 IST" name="launchApplication" finished-at="2022-11-29T02:15:43 IST" duration-ms="5092" status="PASS">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:47 IST" name="launchApplication" finished-at="2022-11-30T23:23:51 IST" duration-ms="3071" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method signature="ProductErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:43 IST" name="ProductErrorValidation" finished-at="2022-11-29T02:15:57 IST" duration-ms="13854" status="FAIL">
+        <test-method signature="ProductErrorValidation()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:23:51 IST" name="ProductErrorValidation" finished-at="2022-11-30T23:24:04 IST" duration-ms="13685" status="FAIL">
           <exception class="java.lang.AssertionError">
             <full-stacktrace>
               <![CDATA[java.lang.AssertionError
@@ -214,7 +214,7 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductErrorValidation -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@5ce8d869]" started-at="2022-11-29T02:15:57 IST" name="tearDown" finished-at="2022-11-29T02:15:57 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:AnupamaProjects.tests.ErrorValidations@466276d8]" started-at="2022-11-30T23:24:04 IST" name="tearDown" finished-at="2022-11-30T23:24:06 IST" duration-ms="2055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

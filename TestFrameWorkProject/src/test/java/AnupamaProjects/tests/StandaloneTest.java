@@ -39,7 +39,7 @@ public class StandaloneTest extends BaseTest{
 		ProductConfirmation productConfirmation = checkOut.checkOutItems();
 		String message = productConfirmation.getProductConfirmation(country);
 		Assert.assertTrue(message.equalsIgnoreCase(confirmationMessage));
-		Thread.sleep(2000);
+		
 			
 		}
 		
